@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PaymentDateCheck
 {
-    public class HolidayService : IHolidayService
+    public class HolidayService<T> : IHolidayService
     {
         public bool isHoliday (DateTime dueDate)
         {

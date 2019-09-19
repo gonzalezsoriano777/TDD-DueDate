@@ -5,7 +5,7 @@ namespace PaymentDateCheck
     public class Bill
     {
 
-        public Bill(HolidayService service)
+        public Bill(IHolidayService service)
         {
             
         }
