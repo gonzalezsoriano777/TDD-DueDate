@@ -10,11 +10,6 @@ namespace PaymentDateCheck
             
         }
 
-        public Bill(DateTime dueDate)
-        {
-
-        }
-
         //bring in holiday service to check for holidays
         //use dependency injection
         public DateTime CheckDate (DateTime dueDate)
